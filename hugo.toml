@@ -1,0 +1,4 @@
+baseURL = 'https://kalja.band/'
+languageCode = 'en-us'
+title = 'Kalja'
+theme ='hugo-classic'
