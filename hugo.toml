@@ -1,4 +1,7 @@
-baseURL = 'https://kalja.band/'
+baseURL = 'https://kalja.band'
 languageCode = 'en-us'
 title = 'Kalja'
 theme ='hugo-classic'
+
+[markup.goldmark.renderer]
+unsafe = true
