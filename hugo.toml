@@ -5,3 +5,8 @@ theme ='hugo-classic'
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[menus]
+[[menus.main]]
+  name = "INSTA"
+  url = "https://www.instagram.com/kalja.band/"
