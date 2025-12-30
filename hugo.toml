@@ -3,5 +3,25 @@ languageCode = 'en-us'
 title = 'Kalja'
 theme ='hugo-classic'
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
+
+
+[menus]
+[[menus.main]]
+  name = "insta"
+  url = "https://www.instagram.com/kalja.band/"
+  weight = 10
+  [menus.main.params]
+    target = "_blank"
+[[menus.main]]
+  name = "bandcamp"
+  url = "https://kaljapunkki.bandcamp.com/"
+  weight = 20
+  [menus.main.params]
+    target = "_blank"
