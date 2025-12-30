@@ -14,5 +14,14 @@ theme ='hugo-classic'
 
 [menus]
 [[menus.main]]
-  name = "INSTA"
+  name = "insta"
   url = "https://www.instagram.com/kalja.band/"
+  weight = 10
+  [menus.main.params]
+    target = "_blank"
+[[menus.main]]
+  name = "bandcamp"
+  url = "https://kaljapunkki.bandcamp.com/"
+  weight = 20
+  [menus.main.params]
+    target = "_blank"
