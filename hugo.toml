@@ -3,8 +3,14 @@ languageCode = 'en-us'
 title = 'Kalja'
 theme ='hugo-classic'
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
+
 
 [menus]
 [[menus.main]]
