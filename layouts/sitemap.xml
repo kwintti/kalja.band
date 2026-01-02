@@ -1,14 +1,14 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>" | safeHTML }}
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url>
-      <loc>https://kalja.band/</loc>
-      <lastmod>2026-01-02</lastmod>
-      <changefreq>weekly</changefreq>
-      <priority>1.0</priority>
-   </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://kalja.band/</loc>
+    <lastmod>2026-01-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://kalja.band/images/kalja.webp</image:loc>
+      <image:title>Official Press Photo - KALJA.band</image:title>
+    </image:image>
+  </url>
 </urlset>
-
-<image:image xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <image:loc>https://kalja.band/images/kalja.webp</image:loc>
-  <image:title>Official Press Photo - KALJA.band</image:title>
-</image:image>
