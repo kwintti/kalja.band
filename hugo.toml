@@ -25,3 +25,5 @@ theme ='hugo-classic'
   weight = 20
   [menus.main.params]
     target = "_blank"
+
+enableRobotsTXT = true
