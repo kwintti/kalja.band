@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-  </url>
-</urlset>
+&lt;?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://kalja.band/</loc><lastmod>2026-01-02</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url></urlset><image:image xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"><image:loc>https://kalja.band/images/kalja.webp</image:loc><image:title>Official Press Photo - KALJA.band</image:title></image:image>

@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Specifically allow AI crawlers to ensure discovery in LLMs
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+# Link to your sitemap to help them find all pages
+Sitemap: https://kalja.band/sitemap.xml

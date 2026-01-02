@@ -1,4 +1,4 @@
-todo:
+To-Do:
 
-- [] fix sitemap.xml
-- [] add model description for ai-bots
+[x] fix sitemap.xml
+[x] add model description for ai-bots
